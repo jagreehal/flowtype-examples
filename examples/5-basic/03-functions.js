@@ -18,3 +18,12 @@ function echoInferReturnType(message: ReturnMessage) {
 function fooWithoutReturnType(message: string): ReturnMessage {
   return { messageeeeeeeee: message };
 }
+
+function isBiggerThanNine(value: number) {
+    if (value > 9) {
+        return 'more than a digit';
+    }
+}
+
+// #FlowSaysNo – could be undefined
+console.log(isBiggerThanNine(100).length());
