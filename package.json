@@ -2,7 +2,7 @@
   "name": "flowtype-examples",
   "version": "1.0.0",
   "author": "Jag Reehal",
-  "repository": {},
+  "repository": "https://github.com/jagreehal/flowtype-examples",
   "license": "MIT",
   "scripts": {
     "doc": "documentation build examples/11-documentation/src/** -f html -o examples/11-documentation/docs",
