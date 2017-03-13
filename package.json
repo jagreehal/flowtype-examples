@@ -1,0 +1,36 @@
+{
+  "name": "flowtype-examples",
+  "version": "1.0.0",
+  "author": "Jag Reehal",
+  "repository": {},
+  "license": "MIT",
+  "scripts": {
+    "doc": "documentation build examples/11-documentation/src/** -f html -o examples/11-documentation/docs",
+    "test": "jest"
+  },
+  "dependencies": {
+    "lodash": "^4.17.4"
+  },
+  "devDependencies": {
+    "babel-core": "^6.23.1",
+    "babel-eslint": "^7.1.1",
+    "babel-plugin-transform-flow-strip-types": "^6.22.0",
+    "babel-preset-latest": "^6.22.0",
+    "babel-preset-react": "^6.23.0",
+    "documentation": "^4.0.0-beta.18",
+    "eslint": "^3.17.1",
+    "eslint-plugin-flowtype": "^2.30.3",
+    "flow-bin": "^0.41.0",
+    "flow-remove-types": "^1.2.0",
+    "flow-typed": "^2.0.0",
+    "jest": "^19.0.2",
+    "jest-cli": "^19.0.2",
+    "prettier": "^0.22.0",
+    "react": "^15.4.2",
+    "react-dom": "^15.4.2",
+    "source-map-support": "^0.4.11"
+  },
+  "jest": {
+    "testRegex": "lib/.*\\.spec\\.js$"
+  }
+}

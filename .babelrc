@@ -1,0 +1,11 @@
+{
+    "presets": [
+        "latest",
+        "react"
+    ],
+    "plugins": [
+        "transform-flow-strip-types"
+    ],
+    "sourceMaps": "inline",
+    "retainLines": true
+}

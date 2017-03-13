@@ -1,0 +1,8 @@
+// Place your settings in this file to overwrite default and user settings.
+{
+    "javascript.validate.enable": false,
+    "editor.formatOnSave": false,
+    "prettier.parser": "flow",
+    "prettier.singleQuote": true,
+    "vsicons.presets.angular": false
+}
