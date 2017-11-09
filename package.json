@@ -13,22 +13,22 @@
   },
   "devDependencies": {
     "babel-core": "^6.23.1",
-    "babel-eslint": "^7.1.1",
+    "babel-eslint": "^8.0.2",
     "babel-plugin-transform-flow-strip-types": "^6.22.0",
     "babel-preset-latest": "^6.22.0",
     "babel-preset-react": "^6.23.0",
-    "documentation": "^4.0.0-beta.18",
-    "eslint": "^3.17.1",
+    "documentation": "^5.3.3",
+    "eslint": "^4.10.0",
     "eslint-plugin-flowtype": "^2.30.3",
-    "flow-bin": "^0.41.0",
+    "flow-bin": "^0.59.0",
     "flow-remove-types": "^1.2.0",
     "flow-typed": "^2.0.0",
-    "jest": "^19.0.2",
-    "jest-cli": "^19.0.2",
-    "prettier": "^0.22.0",
-    "react": "^15.4.2",
-    "react-dom": "^15.4.2",
-    "source-map-support": "^0.4.11"
+    "jest": "^21.2.1",
+    "jest-cli": "^21.2.1",
+    "prettier": "^1.8.1",
+    "react": "^16.0.0",
+    "react-dom": "^16.0.0",
+    "source-map-support": "^0.5.0"
   },
   "jest": {
     "testRegex": "lib/.*\\.spec\\.js$"
